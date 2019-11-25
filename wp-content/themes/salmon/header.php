@@ -9,13 +9,13 @@
     <title>Sushi Cafe</title>
   <? wp_head() ?>
   </head>
-
+  <body>
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a href="index.html" class="navbar-brand"><img class="img-fulid" src="img/logo.png" alt=""></a>
+            <a href="index.html" class="navbar-brand"><img class="img-fulid" src="<?php echo get_template_directory_uri()?>/img/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
               <i class="lnr lnr-menu"></i>
             </button>
