@@ -29,7 +29,10 @@
           <?php
         // The Query
           $args = array(
-            'post_type' => 'menu');
+            'post_type' => 'menu',
+            'posts_per_page' => -1
+          
+          );
           $query = new WP_Query($args);
             while ($query->have_posts()) {
 

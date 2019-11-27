@@ -549,9 +549,11 @@ button:focus {
   #nav-main li a.nav-link {
     padding-top: 18px;
   }
-  .shot-item{
-    flex-direction: column;
-  }
+  
+}
+.shot-item{
+  flex-direction: column;
+
 }
 
 .navbar-toggler {
@@ -784,8 +786,14 @@ button:focus {
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
-.description{
+.title{
     font-weight: bold;
+    text-transform: capitalize;
+}
+.price{
+  font-size: 1.2em;
+  text-align: right;
+ 
 }
 #portfolio{
   width: 100%;
@@ -795,11 +803,13 @@ button:focus {
 }
 .item-text {
   padding-left: 10%;
+  padding-top: 1em;
 }
 
 #portfolios .portfolio-item .shot-item {
   margin: 0px;
 }
+
 
 #portfolio .mix {
   display: none;
@@ -1199,6 +1209,10 @@ button:focus {
 .contact-us p span {
   color: #FD7F5E;
   padding-left: 10px;
+
+}
+.contact-us p span a{
+  color:  #FD7F5E;
 }
 
 #contact {

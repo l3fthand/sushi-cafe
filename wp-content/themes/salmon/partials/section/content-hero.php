@@ -6,7 +6,7 @@
           <div class="col-md-10">
             <div class="contents text-center">
               <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php the_title() ?></h1>
-              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"><?php the_content() ?></p>
+              <div class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"><?php the_content() ?></div>
             </div>
           </div>
         </div> 

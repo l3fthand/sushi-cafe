@@ -73,7 +73,15 @@ function register_resources(){
 		'public' => true,
 		'label'  => 'Menu'
 	  );
-	  register_post_type( 'menu', $args );
+      register_post_type( 'menu', $args );
+      
+        //register contact
+	$args = array(
+		'public' => true,
+		'label'  => 'Contact'
+	  );
+	  register_post_type( 'contact', $args );
+
 
     
        //register taxonomy
